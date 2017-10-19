@@ -1,0 +1,304 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-04 15:40:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-10 14:22:12
+*/
+@import url("base.css");
+
+.beijing{
+	width: 100%;
+	height: 700px;
+	background: url('../img/gongsi.jpg');
+	background-size: 100% 100%;
+	position: fixed;
+	top: 0;left: 0;
+	z-index: -999;
+}
+header{
+	width: 100%;
+	height: 550px;
+	/* height: auto; */
+	overflow: hidden;
+	background:  rgba(0, 0, 0, 0.4);
+}
+.logo{
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+}
+.logo img{
+	display: block;
+	width: 161px;
+	height: 45px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.tiao{
+	width: 98%;
+	margin: 0 auto;
+	height: 2px;
+	background: #fff;
+}
+.ul-xian{
+	width:60%;
+	height: 75px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.ul-xian li,.ul-yin li{
+	float: left;
+}
+.ul-xian li a,.ul-yin li a{
+	font-size: 16px;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 75px;
+}
+.ul-xian li a:hover{
+	color: #A33E10;
+	/* border: 1px solid #fff; */
+}
+.ul-yin li a:hover{
+	color: #A33E10;
+	/* border: 1px solid #fff; */
+}
+.yin-box{
+	width: 100%;
+	height: 75px;
+	margin:0 auto;
+	background: #000;
+	position: fixed;
+	top: 0;left: 0;
+	z-index: 999;
+	/* display: none; */
+	opacity: 0;
+}
+.ul-yin{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.ul-yin li:nth-child(2) a,.ul-xian li:nth-child(2) a{
+	color: #A33E10;
+}
+header span{
+	display: block;
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	margin-top: 80px;
+}
+header p{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+/* 公司简介 */
+.jianjie{
+	height: auto;
+	overflow: hidden;
+	background:#fff;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+.jianjie-top{
+	font-size: 26px;
+	color:#575C5C;
+	text-align: center;
+}
+.jianjie-center{
+	width: 90px;
+	height: 1px;
+	margin: 0 auto;
+	background: #A33E10;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.jianjie-ying{
+	font-size: 14px;
+	color: #575C5C;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.jianjie-bottom{
+	font-size: 14px;
+	line-height: 20px;
+	color: #575C5C;
+	margin-top:20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* 公司环境 */
+.environment{
+	height: auto;
+	overflow: hidden;
+	background:#fff;
+	padding-bottom: 50px;
+}
+.envir-box,.envir-box1,.envir-box2{
+	float: left;
+	width: 100%;
+}
+.envir-box1{
+	background: pink;
+}
+.envir-box2{
+	background: blue;
+}
+.jiahao{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #A33E10;
+	margin: 0 auto;
+	font-size: 40px;
+	color: #fff;
+	line-height: 45px;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.environment-tu img{
+	display: block;
+	width: 100%;
+	height: 345px;
+}
+.environment-zi{
+	height: 65px;
+	background: #fff;
+	font-size: 18px;
+	color: #A33E10;
+	text-align: center;
+	line-height: 67px;
+	border-bottom: 2px solid #A33E10;
+}
+.environment-zi-dong{
+	display: block;
+	height: 67px;
+	background: #A33E10;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 67px;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.envir-box:hover .environment-zi-dong{
+	opacity: 1;
+	transform: translateY(-67px);
+}
+.envir-box:hover .jiahao{
+	opacity: 1;
+	transform: translateY(190px);
+}
+/* 合作伙伴 */
+.work{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+.work-1{
+	width: 218px;
+	height: 103px;
+	background: #fff;
+	position: relative;
+}
+.work-1 img{
+	width: 120px;
+	height: 63px;
+	display: block;
+	margin: 20px auto;
+}
+.zhe{
+	width: 100%;
+	height: 100%;
+	background: rgba(163, 62, 16,0.2);
+	position: absolute;
+	top: 0;left: 0;
+	transition: all 0.4s;
+}
+.work-1:hover .zhe{	
+	opacity: 0;
+}
+.work-1:hover{
+	border: 1px solid #A33E10;
+}
+/* 关于我们 */
+.guanyu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 40px;
+	background: #221111;
+}
+.guanyu-left{
+	margin-top: 50px;
+}
+.guanyu-center{
+	margin-top: 50px;
+}
+.guanyu-right{
+	margin-top: 50px;
+}
+.guanyu-logo img{
+	width: 161px;
+	height:45px;
+	display: block;
+}
+.guanyu-left p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.guanyu-center ul li a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+}
+.guanyu-center ul li:first-child a{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.guanyu-zi{
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.guanyu-1{
+	width: 130px;
+	height: 100px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.guanyu-1 img{
+	width: 100%;
+	height:100%;
+	display: block;
+	transition: all 0.5s;
+}
+.guanyu-1 img:hover{
+	transform: scale(1.2,1.2);
+}
+.guanyu-gang{
+	width: 100%;
+	height: 1px;
+	background: #706565;
+	margin-top:250px;
+}
+.guanyu-bottom{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin-top:30px;
+}

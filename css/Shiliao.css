@@ -1,0 +1,379 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-07 22:42:52
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-10 22:22:42
+*/
+@import url("base.css");
+
+.beijing{
+	width: 100%;
+	height: 1020px;
+	background: url('../img/shiliao7.jpg');
+	background-size: 100% 100%;
+	position: fixed;
+	top: 0;left: 0;
+	z-index: -999;
+}
+header{
+	width: 100%;
+	height: 550px;
+	/* height: auto; */
+	overflow: hidden;
+	background:  rgba(0, 0, 0, 0.5);
+}
+.logo{
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+}
+.logo img{
+	display: block;
+	width: 161px;
+	height: 45px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.tiao{
+	width: 98%;
+	margin: 0 auto;
+	height: 2px;
+	background: #fff;
+}
+.ul-xian{
+	width:60%;
+	height: 75px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.ul-xian li,.ul-yin li{
+	float: left;
+}
+.ul-xian li a,.ul-yin li a{
+	font-size: 16px;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 75px;
+}
+.ul-xian li:nth-child(3) a,.ul-yin li:nth-child(3) a{
+	color: #A33E10;
+}
+.ul-xian li a:hover{
+	color: #A33E10;
+	/* border: 1px solid #fff; */
+}
+.ul-yin li a:hover{
+	color: #A33E10;
+	/* border: 1px solid #fff; */
+}
+.yin-box{
+	width: 100%;
+	height: 75px;
+	margin:0 auto;
+	background: #000;
+	position: fixed;
+	top: 0;left: 0;
+	z-index: 999;
+	/* display: none; */
+	opacity: 0;
+}
+.ul-yin{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+header span{
+	display: block;
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	margin-top: 80px;
+}
+header p{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+/* 食疗养生 */
+.shiliao{
+	height: auto;
+	overflow: hidden;
+	padding: 80px 0;
+	/* padding-bottom: 30px; */
+	background: #fff;
+}
+.sport-top{
+	font-size: 26px;
+	color:#575C5C;
+	text-align: center;
+}
+.sport-center{
+	width: 90px;
+	height: 1px;
+	margin: 0 auto;
+	background: #A33E10;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.sport-ying{
+	font-size: 14px;
+	color: #575C5C;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.shiliao-top{
+	width: 100%;
+	height: 300px;
+	/* background: #520A0A; */
+	position: relative;
+	overflow: hidden;
+}
+.top-left{
+	width: 190px;
+	height: 190px;
+	background: #221111;
+	border: 10px solid #A4400B;
+	border-radius: 50%;
+	float: left;
+}
+.top-left a:first-child{
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+}
+.top-left a{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	margin-top: 15px;
+}
+.top-left a:first-child:hover{
+	color: #A4400B;
+}
+.top-left a:hover{
+	color: #A4400B;
+}
+.top-left1{
+	width: 102px;
+	height: 102px;
+	border-radius: 50%;
+	border: 8px solid #A4400B;
+	position: absolute;
+	top: 160px;left: 120px;
+}
+.top-left1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.top-right{
+	width: 855px;
+	height:279px;
+	margin-top:20px;
+	float: right;
+	position: relative;
+	border-left: 1px solid #221111;
+	border-bottom: 1px solid #221111;
+	position: relative;
+}
+.top-right .more,.top-right1 .more1{
+	font-size: 30px;
+	color: #A4400B;
+	position: absolute;
+	top: 0;right: 15px;
+	transition: all 0.5s;
+}
+.top-right .more:hover,.top-right1 .more1:hover{
+	transform: translateX(15px);
+}
+.top-right1{
+	width: 855px;
+	height:280px;
+	margin-top:20px;
+	float: right;
+	position: relative;
+	border-left: 1px solid #221111;
+	margin-top: 0px;
+}
+.top-right1{
+	border-left: 0;
+	/* border-right: 1px solid #221111; */
+	border-left: 1px solid #221111;
+}
+/* .xuxian{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-right: 5px dashed #221111;
+	position: absolute;
+	top: 260px;left: 100px;
+} */
+.one{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 30px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	background: #221111;
+	position: absolute;
+	top: 20px;left: -25px;
+}
+.top-right1 .two{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 30px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	background: #221111;
+	position: absolute;
+	/* top: 20px;right: -15px; */
+	top: 20px;left: -25px;
+}
+.top-right a,.top-right1 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+	letter-spacing: 1px;
+	display: block;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.top-right .biaoti,.top-right1 .biaoti{
+	display: block;
+	font-size: 24px;
+	color: #22211F;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+/* .top-right a:first-child:hover{
+	color: #A4400B;
+} */
+.top-right a:hover{
+	color: #A4400B;
+}
+.top-right1 a:hover{
+	color: #A4400B;
+}
+/* .shiliao1{
+	height: 168px;
+	margin-bottom: 50px;
+}
+.shiliao1-left{
+	width: 240px;
+	height: 168px;
+}
+.shiliao1-left img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s;
+}
+.shiliao1-left img:hover{
+	transform: translateX(20px);
+}
+.yidong{
+	width: 20px;
+	height: 168px;
+	background: pink;
+	font-size: 14px;
+	color: #575C5C;
+	display: block;
+	opacity: 1;
+}
+.right-top{
+	font-size: 24px;
+	color:#575C5C;
+	margin-top: 10px;
+}
+.shiliao1-right p{
+	font-size: 14px;
+	color: #575C5C;
+	margin-top: 20px;
+} */ 
+/* 关于我们 */
+.guanyu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 40px;
+	background: #221111;
+}
+.guanyu-left{
+	margin-top: 50px;
+}
+.guanyu-center{
+	margin-top: 50px;
+}
+.guanyu-right{
+	margin-top: 50px;
+}
+.guanyu-logo img{
+	width: 161px;
+	height:45px;
+	display: block;
+}
+.guanyu-left p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.guanyu-center ul li a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+}
+.guanyu-center ul li:first-child a{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.guanyu-center ul li:first-child~li:hover a{
+	color: #A4400B;
+}
+.guanyu-zi{
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.guanyu-1{
+	width: 130px;
+	height: 100px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.guanyu-1 img{
+	width: 100%;
+	height:100%;
+	display: block;
+	transition: all 0.5s;
+}
+.guanyu-1 img:hover{
+	transform: scale(1.2,1.2);
+}
+.guanyu-gang{
+	width: 100%;
+	height: 1px;
+	background: #706565;
+	margin-top:250px;
+}
+.guanyu-bottom{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin-top:30px;
+}

@@ -1,0 +1,352 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-05 21:45:03
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-10 23:52:33
+*/
+@import url("base.css");
+
+.beijing{
+	width: 100%;
+	height: 600px;
+	background: url('../img/yundong.jpg');
+	background-size: 100% 100%;
+	position: fixed;
+	top: 0;left: 0;
+	z-index: -999;
+}
+header{
+	width: 100%;
+	height: 600px;
+	/* height: auto; */
+	overflow: hidden;
+	background:  rgba(0, 0, 0, 0.4);
+}
+.logo{
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+}
+.logo img{
+	display: block;
+	width: 161px;
+	height: 45px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.tiao{
+	width: 98%;
+	margin: 0 auto;
+	height: 2px;
+	background: #fff;
+}
+.ul-xian{
+	width:60%;
+	height: 75px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.ul-xian li,.ul-yin li{
+	float: left;
+}
+.ul-xian li a,.ul-yin li a{
+	font-size: 16px;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 75px;
+}
+.ul-xian li:nth-child(4) a,.ul-yin li:nth-child(4) a{
+	color: #A33E10;
+}
+.ul-xian li a:hover{
+	color: #A33E10;
+	/* border: 1px solid #fff; */
+}
+.ul-yin li a:hover{
+	color: #A33E10;
+	/* border: 1px solid #fff; */
+}
+.yin-box{
+	width: 100%;
+	height: 75px;
+	margin:0 auto;
+	background: #000;
+	position: fixed;
+	top: 0;left: 0;
+	z-index: 999;
+	/* display: none; */
+	opacity: 0;
+}
+.ul-yin{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+header span{
+	display: block;
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	margin-top: 80px;
+}
+header p{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+/* 运动养生 */
+.sport{
+	height: auto;
+	overflow: hidden;
+	background:#fff;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+.sport-top{
+	font-size: 26px;
+	color:#575C5C;
+	text-align: center;
+}
+.sport-center{
+	width: 90px;
+	height: 1px;
+	margin: 0 auto;
+	background: #A33E10;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.sport-ying{
+	font-size: 14px;
+	color: #575C5C;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.bottom1-top,.bottom1-bottom{
+	height: 126px;
+}
+.bottom1-zi{
+	float: left;
+}
+.bottom1-top p,.bottom1-bottom p{
+	width: 394px;
+	font-size: 18px;
+	color: #333333;
+}
+.bottom1-top span,.bottom1-bottom span{
+	display: block;
+	width: 394px;
+	font-size: 15px;
+	line-height: 20px;
+	color: #575C5C;
+	margin-top: 10px;
+}
+.bottom1-top p:hover,.bottom1-bottom p:hover{
+	color: #A4400B ;
+}
+.bottom1-top span:hover,.bottom1-bottom span:hover{
+	color: #A4400B;
+}
+.bottom1-tu img,.bottom1-tu1 img{
+	display: block;
+	margin-top: 10px;
+	width: 95px;
+	height: 105px;
+	float: left;
+	margin-left: 20px;
+}
+/* .bottom1-tu2{
+	width: 95px;
+	height: 105px;
+	float: right;
+	background: url('../img/diyibu.png') no-repeat center;
+	background-size: 95px 105px;
+} */
+.bottom1-top .bottom1-tu:hover {
+    filter: grayscale(0);
+}
+/* .bottom1-tu:hover img{
+	background:#7C7C7C;
+	border-radius: 50%;
+} */
+.bottom1-tu1 img:hover{
+	background: #CCCCCC;
+	border-radius: 50%;
+}
+.bottom2-ding{
+	height: 65px;
+}
+
+.bottom2-top,.bottom2-bottom{
+	height: 126px;
+}
+.bottom2-zi{
+	float: right;
+}
+.bottom2-top p,.bottom2-bottom p{
+	width: 394px;
+	font-size: 18px;
+	color: #333333;
+}
+.bottom2-top span,.bottom2-bottom span{
+	display: block;
+	width: 394px;
+	font-size: 15px;
+	line-height: 20px;
+	color: #575C5C;
+	margin-top: 10px;
+}
+.bottom2-top p:hover,.bottom2-bottom p:hover{
+	color: #A4400B ;
+}
+.bottom2-top span:hover,.bottom2-bottom span:hover{
+	color: #A4400B ;
+}
+.bottom2-tu img,.bottom2-tu1 img{
+	display: block;
+	margin-top: 10px;
+	width: 95px;
+	height: 105px;
+	float: right;
+	margin-right: 20px;
+}
+.bottom2-tu img:hover{
+	background: #CCCCCC;
+	border-radius: 50%;
+}
+.bottom2-tu1 img:hover{
+	background:#7C7C7C;
+	border-radius: 50%;
+}
+/* 运动养生图 */
+.sport-tu{
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 80px;
+	background: #fff;
+}
+/* .left-top,.left-center,.left-bottom{
+	height: 237px;
+	margin-bottom: 20px;
+} */
+/* .tu-left>li{
+	float: left;
+} */
+/* .left-top img,.left-center img,.left-bottom img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s;
+} */
+.tu-left img,.tu-center img,.tu-right img{
+	display: block;
+	width: 100%;
+	height: 237px;
+	transition: all 0.4s;
+}
+.center-top{
+	height: 474px;
+	margin-bottom: 20px;
+}
+.center-top img,.center-center img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s;
+}
+.right-top{
+	height: 237px;
+	margin-bottom: 20px;
+}
+.right-center{
+	height: 494px;
+	margin-bottom: 20px;
+}
+.right-top img,.right-center img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s;
+}
+.sport-tu ul img:hover{
+	box-shadow: 5px 2px 30px -2px rgba(0, 0, 0, 0.6);
+	transform: scale(1.1, 1.1);
+}
+.sport-tu ul:last-child img:hover{
+	box-shadow: -5px 2px 30px -2px rgba(0, 0, 0, 0.6);
+	transform: scale(1.1, 1.1);
+}
+/* 关于我们 */
+.guanyu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 40px;
+	background: #221111;
+}
+.guanyu-left{
+	margin-top: 50px;
+}
+.guanyu-center{
+	margin-top: 50px;
+}
+.guanyu-right{
+	margin-top: 50px;
+}
+.guanyu-logo img{
+	width: 161px;
+	height:45px;
+	display: block;
+}
+.guanyu-left p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+	margin-top: 20px;
+}
+.guanyu-center ul li a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 30px;
+}
+.guanyu-center ul li:first-child a{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.guanyu-zi{
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.guanyu-1{
+	width: 130px;
+	height: 100px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.guanyu-1 img{
+	width: 100%;
+	height:100%;
+	display: block;
+	transition: all 0.5s;
+}
+.guanyu-1 img:hover{
+	transform: scale(1.2,1.2);
+}
+.guanyu-gang{
+	width: 100%;
+	height: 1px;
+	background: #706565;
+	margin-top:250px;
+}
+.guanyu-bottom{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin-top:30px;
+}
